@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App1</string>
+    <string name="action_settings">Settings</string>
+    <string name="c_name">Domino\'s Pizza</string>
+    <string name="address">1D, Ground Floor and First Floor, Paras Society, Cross Bedi Road, Jamnagar, Gujarat 361008</string>
+    <string name="phone">0288 255 9681</string>
+    <string name="web">dominos.co.in</string>
+    <string name="about">Delivery/carryout chain offering a wide range of pizza, plus chicken and other sides.</string>
+    <string name="time">Saturday 11AM–11PM\nSunday 11AM–11PM\nMonday 11AM–11PM\nTuesday 11AM–11PM\nWednesday 11AM–11PM\nThursday 11AM–11PM\nFriday 11AM–11PM</string>
+</resources>

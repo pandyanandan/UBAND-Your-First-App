@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nkp.app1.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/space"
+                android:scaleType="fitXY"
+                android:src="@drawable/ban" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/c_name"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/name_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:padding="@dimen/space"
+                android:text="@string/about"
+                android:textAlignment="gravity"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_marginTop="@dimen/space"
+                android:drawableLeft="@android:drawable/ic_dialog_map"
+                android:drawablePadding="@dimen/space"
+                android:gravity="fill"
+                android:padding="@dimen/space"
+                android:text="@string/address"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_marginTop="@dimen/space"
+                android:drawableLeft="@android:drawable/ic_menu_call"
+                android:drawablePadding="@dimen/space"
+                android:gravity="fill"
+                android:padding="@dimen/space"
+                android:text="@string/phone"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_marginTop="@dimen/space"
+                android:drawableLeft="@android:drawable/ic_dialog_info"
+                android:drawablePadding="@dimen/space"
+                android:gravity="fill"
+                android:padding="@dimen/space"
+                android:text="@string/web"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_marginTop="@dimen/space"
+                android:drawableLeft="@android:drawable/presence_away"
+                android:drawablePadding="@dimen/space"
+                android:gravity="fill"
+                android:padding="@dimen/space"
+                android:text="@string/time"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size1" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
