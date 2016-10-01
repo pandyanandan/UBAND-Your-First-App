@@ -19,7 +19,8 @@ Functionality
     • Program compiles and runs on a phone
           o Program must function in Android Studio emulator and on a phone. Upon launching on a phone, the card appears.
     • Content does not appear "cut off"	
-          o Layout scales responsively for screen sizes in portrait mode, with no part of any images only partially visible. Student is not responsible for responsive design in landscape mode.
+          o Layout scales responsively for screen sizes in portrait mode, with no part of any images only partially visible. 
+            Student is not responsible for responsive design in landscape mode.
 
 Code Review
 
