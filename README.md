@@ -1,4 +1,5 @@
 # UBAND-Your-First-App
+
 Udacity Basic Android Nanodegree - Your First App
 PROJECT SPECIFICATION
 Your First App
@@ -6,10 +7,10 @@ Your First App
 Content Review
 
 Design includes all specified business criteria	Your design must include:
-      •	Business name
-      •	At least one photo representing the business
-      •	Two or more other pieces of information, such as:
-          o	Contact information for the business (eg phone number, email address, website)
+      • Business name
+      • At least one photo representing the business
+      • Two or more other pieces of information, such as:
+          o Contact information for the business (eg phone number, email address, website)
           o	Address of the Business
           o	Description of business
           o	Hours of operation
