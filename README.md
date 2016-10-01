@@ -6,7 +6,8 @@ Your First App
 
 Content Review
 
-Design includes all specified business criteria	Your design must include:
+Design
+
       • Business name
       • At least one photo representing the business
       • Two or more other pieces of information, such as:
